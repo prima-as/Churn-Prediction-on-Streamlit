@@ -26,8 +26,8 @@ estimated_salary = left.number_input("Estimated Salary", min_value=0.0, value=20
 
 # Categorical Input
 right.subheader("Fitur Kategorik")
-has_cr_card = left.slider("Has Credit Card", min_value=0, max_value=1, value=1)
-is_active_member = left.slider("Is Active Member", min_value=0, max_value=1, value=1)
+has_cr_card = right.slider("Has Credit Card", min_value=0, max_value=1, value=1)
+is_active_member = right.slider("Is Active Member", min_value=0, max_value=1, value=1)
 gender = right.selectbox("Gender", ["Male", "Female"])
 geography = right.selectbox("Geography", ["France", "Germany", "Spain"])
 
