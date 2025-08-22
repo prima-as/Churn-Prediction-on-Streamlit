@@ -20,14 +20,14 @@ left.subheader("Fitur Numerik")
 age = left.slider("Age", min_value=0, max_value=92, value=1)
 tenure = left.slider("Tenure", min_value=0, max_value=10, value=1)
 num_of_products = left.slider("Number of Products", min_value=0, max_value=4, value=2)
-has_cr_card = left.slider("Has Credit Card", min_value=0, max_value=1, value=1)
-is_active_member = left.slider("Is Active Member", min_value=0, max_value=1, value=1)
 credit_score = left.number_input("Credit Score", min_value=350, max_value=850, value=500, step=1)
 balance = left.number_input("Balance", min_value=0.0, value=80000.0, step=100.0)
 estimated_salary = left.number_input("Estimated Salary", min_value=0.0, value=200.0, step=100.0)
 
 # Categorical Input
 right.subheader("Fitur Kategorik")
+has_cr_card = left.slider("Has Credit Card", min_value=0, max_value=1, value=1)
+is_active_member = left.slider("Is Active Member", min_value=0, max_value=1, value=1)
 gender = right.selectbox("Gender", ["Male", "Female"])
 geography = right.selectbox("Geography", ["France", "Germany", "Spain"])
 
